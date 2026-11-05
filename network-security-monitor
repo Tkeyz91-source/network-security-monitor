@@ -1,0 +1,35 @@
+cat > README.md <<'EOF'
+# Python Network Security Monitoring Tool
+
+## Overview
+
+A beginner-friendly Python project for defensive network traffic analysis. It examines simulated network-flow records, identifies unusual traffic patterns, and generates a security monitoring report.
+
+## Features
+
+- Network connection summaries
+- Traffic volume analysis
+- Blocked connection tracking
+- Repeated blocked connection alerts
+- High traffic volume alerts
+- Automated text report generation
+
+## Technologies
+
+- Python 3
+- Kali Linux
+- CSV
+
+## Project Structure
+
+```text
+network-security-monitor/
+├── data/
+│   └── network_traffic.csv
+├── reports/
+│   ├── security-assessment.md
+│   └── network_security_report.txt
+├── screenshots/
+├── monitor.py
+└── README.md
+

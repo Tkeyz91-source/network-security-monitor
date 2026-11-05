@@ -1,0 +1,19 @@
+===== NETWORK SECURITY MONITORING REPORT =====
+Total connections: 10
+Total traffic: 150100 bytes
+
+CONNECTIONS BY SOURCE IP
+192.168.1.15: 4 connections
+192.168.1.10: 3 connections
+192.168.1.11: 1 connections
+192.168.1.12: 1 connections
+192.168.1.13: 1 connections
+
+BLOCKED CONNECTIONS
+192.168.1.15: 4 blocked attempts
+
+SECURITY ALERTS
+[HIGH TRAFFIC] 192.168.1.10 transferred 95000 bytes to 192.0.2.50
+[REPEATED BLOCKED CONNECTIONS] 192.168.1.15: 4 attempts
+
+Note: Results are based on simulated network data.
